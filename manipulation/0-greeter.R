@@ -45,20 +45,43 @@ items_chu <- metadata %>% filter(section == "CHU") %>% pull(item_name)
 items_wtd <- metadata %>% filter(section == "WTD") %>% pull(item_name)
 items_w2w <- metadata %>% filter(section == "W2W") %>% pull(item_name)
 items_sun <- metadata %>% filter(section == "SUN", likert==T) %>% pull(item_name)
+items_sun_why <- metadata %>% filter(section == "SUN", is.na(likert)) %>% pull(item_name)
 
-items_scales <- c(items_chu, item_wtd, items_w2w, items_sun)
+items_scales <- c(items_chu, items_wtd, items_w2w, items_sun)
 
-# ---- ---------------
+ds1 %>% group_by(Status, Finished) %>% count()
+ds2 <- ds1 %>%
+  filter(Finished==1) %>%
+  mutate_all(dplyr::na_if,-99)
 
-#
-# for(i in names(ds1)){
-#   # ds1 %>% distinct_(.dots = c(i) ) %>% print()
-#   labelled::var_label(ds1[,i]) %>% print()
-#   labelled::val_labels(ds1[,i]) %>% print()
-# }
+dscale <- ds2 %>%
+  select(c("ResponseId", items_scales))
 
 
-# d %>% explore::explore()
+ds2 %>% select(items_chu) %>%   missing_summary()
+ds2 %>% select(items_wtd) %>%   missing_summary()
+ds2 %>% select(items_w2w) %>%   missing_summary()
+ds2 %>% select(items_sun) %>%   missing_summary()
+
+ds2 %>% select(c(items_chu, items_sun)) %>% missing_summary()
+
+
+ds2 %>% select(c(items_chu, items_sun)) %>% filter(complete.cases(.))
+
+ds2 %>% select(items_wtd)  %>% missing_summary()
+ds2 %>% select(items_wtd)  %>% show_missing_points()
+
+
+cat("\nOverall % of missing data: ",scales::percent(ms$miss_df_prop))
+cat("\nVariables that contain missing data: ",scales::percent(ms$miss_var_prop))
+cat("\nCases that contain missing data: ",scales::percent(ms$miss_case_prop))
+
+
+missing_summary()
+
+
+naniar::miss_summary(ds2 %>% select(items_wtd))
+
 # ---- convert-to-factors -----------------------
 
 convert_to_factors <- function(d,varname){
@@ -77,25 +100,24 @@ convert_to_factors <- function(d,varname){
   return(d)
 }
 
-# d1 <- ds1 %>% select(id,gender, race, ethnicity)
 
 ds2 <- ds1
-for(i in setdiff(names(ds1), c("id", "Q8", "Q13_13_TEXT", "Q14","Q15","Q14___Parent_Topics", "Q14___Topics")) ){
+for(i in c("Status","Finished", items_scales, items_sun_why,"sex", "ethnicity","race","class_standing")){
   ds2 <- ds2 %>% convert_to_factors(i)
 }
 
-ds2 <- ds2 %>%
-  dplyr::mutate(
-    race_ethnicity  = paste0( as.character(levels(race)), " - ", as.character(ethnicity))
-  )
+ds2 %>% glimpse()
 
-# ds2 %>% glimpse()
 
-# ds1 %>% group_by(gender) %>% summarize(n = n())
-# ds2 %>% group_by(gender) %>% summarize(n = n())
+# ---- tweak-data-2 ---------------
+ds2 %>% group_by(Status, Finished) %>% count()
+ds3 <- ds2 %>%
+  filter(Finished=="True") %>%
+  mutate_all(na_if,"(Missing)")
 
-# ds2 %>% explore::explore()
-
+ds3 %>%
+  select(c("ResponseId", items_scales)) %>%
+  filter(complete.cases(.))
 
 
 # ---- create-meta --------------------
