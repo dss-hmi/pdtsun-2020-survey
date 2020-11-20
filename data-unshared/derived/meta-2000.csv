@@ -1,0 +1,95 @@
+name,label
+StartDate,Start Date
+EndDate,End Date
+Status,Response Type
+IPAddress,IP Address
+Progress,Progress
+Duration__in_seconds_,Duration (in seconds)
+Finished,Finished
+RecordedDate,Recorded Date
+ResponseId,Response ID
+RecipientLastName,Recipient Last Name
+RecipientFirstName,Recipient First Name
+RecipientEmail,Recipient Email
+ExternalReference,External Data Reference
+LocationLatitude,Location Latitude
+LocationLongitude,Location Longitude
+DistributionChannel,Distribution Channel
+UserLanguage,User Language
+Q4,How worried are you today?
+Q5,How sad are you today?
+Q8,How much pain do you have today?
+Q7,How tired are you today?
+Q6,How annoyed are you today?
+Q9,How did you sleep last night?
+Q9.0,How are you doing with your daily routine today?
+Q10,How are you doing with your work today?
+Q11,To what extent can you join in with activities today?
+Q12,I've been feeling optimistic about the future.
+Q13,I've been feeling useful.
+Q14,I've been feeling relaxed.
+Q15,I've been feeling interested in other people.
+Q16,I've had energy to spare.
+Q17,I've been dealing with problems well.
+Q18,I've been thinking clearly.
+Q19,I've been feeling good about myself.
+Q20,I've been feeling close to other people.
+Q21,I've been feeling confident
+Q22,I've been able to make up my own mind about things.
+Q23,I've been feeling loved.
+Q24,I've been interested in new things.
+Q25,I've been feeling cheerful.
+Q41,I've been feeling optimistic about the future.
+Q42,I've been feeling useful.
+Q43,I've been feeling relaxed.
+Q44,I've been feeling interested in other people.
+Q45,I've had energy to spare.
+Q46,I've been dealing with problems well.
+Q47,I've been thinking clearly.
+Q48,I've been feeling good about myself.
+Q49,I've been feeling close to other people.
+Q50,I've been feeling confident
+Q51,I've been able to make up my own mind about things.
+Q52,I've been feeling loved.
+Q53,I've been interested in new things.
+Q54,I've been feeling cheerful.
+Q26,Today I feel happy.
+Q27_1,"Why did you choose this answer to the statement, ""Today I feel happy""? classes"
+Q27_2,"Why did you choose this answer to the statement, ""Today I feel happy""? work"
+Q27_3,"Why did you choose this answer to the statement, ""Today I feel happy""? health"
+Q27_4,"Why did you choose this answer to the statement, ""Today I feel happy""? family"
+Q27_5,"Why did you choose this answer to the statement, ""Today I feel happy""? friends"
+Q27_6,"Why did you choose this answer to the statement, ""Today I feel happy""? significant other"
+Q27_7,"Why did you choose this answer to the statement, ""Today I feel happy""? sleep"
+Q27_8,"Why did you choose this answer to the statement, ""Today I feel happy""? nutrition"
+Q27_9,"Why did you choose this answer to the statement, ""Today I feel happy""? physical activity"
+Q27_10,"Why did you choose this answer to the statement, ""Today I feel happy""? extracurricular activity"
+Q27_11,"Why did you choose this answer to the statement, ""Today I feel happy""? current events"
+Q27_12,"Why did you choose this answer to the statement, ""Today I feel happy""? housing environment"
+Q27_13,"Why did you choose this answer to the statement, ""Today I feel happy""? other"
+Q29,Today I feel confident.
+Q30,Today I feel that my life has a purpose.
+Q31,Today I feel supported.
+Q32,Today I took good care of myself.
+Q33,Today I feel rested.
+Q34,Today I feel annoyed or irritable.
+Q35_1,"Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? classes"
+Q35_2,"Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? work"
+Q35_3,"Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? health"
+Q35_4,"Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? family"
+Q35_5,"Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? friends"
+Q35_6,"Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? significant other"
+Q35_7,"Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? sleep"
+Q35_8,"Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? nutrition"
+Q35_9,"Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? physical activity"
+Q35_10,"Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? extracurricular activity"
+Q35_11,"Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? current events"
+Q35_12,"Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? housing environment"
+Q35_13,"Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? other"
+Q60,How old are you?
+Q61,What is your birth sex? - Selected Choice
+Q61_3_TEXT,What is your birth sex? - Other - Text
+Q62,How would you describe your ethnicity?
+Q63,How would you describe your race? - Selected Choice
+Q63_6_TEXT,How would you describe your race? - Other - Text
+Q64,What is your class standing?

@@ -1,0 +1,95 @@
+reverse,item_name_old,item_name,item_label,item_description,label_raw,section,likert
+,StartDate,StartDate,StartDate,Start Date,Start Date,survey,
+,EndDate,EndDate,EndDate,End Date,End Date,survey,
+,Status,Status,Status,Response Type,Response Type,survey,
+,IPAddress,IPAddress,IPAddress,IP Address,IP Address,survey,
+,Progress,Progress,Progress,Progress,Progress,survey,
+,Duration__in_seconds_,Duration__in_seconds_,Duration__in_seconds_,Duration (in seconds),Duration (in seconds),survey,
+,Finished,Finished,Finished,Finished,Finished,survey,
+,RecordedDate,RecordedDate,RecordedDate,Recorded Date,Recorded Date,survey,
+,ResponseId,ResponseId,ResponseId,Response ID,Response ID,survey,
+,RecipientLastName,RecipientLastName,RecipientLastName,Recipient Last Name,Recipient Last Name,survey,
+,RecipientFirstName,RecipientFirstName,RecipientFirstName,Recipient First Name,Recipient First Name,survey,
+,RecipientEmail,RecipientEmail,RecipientEmail,Recipient Email,Recipient Email,survey,
+,ExternalReference,ExternalReference,ExternalReference,External Data Reference,External Data Reference,survey,
+,LocationLatitude,LocationLatitude,LocationLatitude,Location Latitude,Location Latitude,survey,
+,LocationLongitude,LocationLongitude,LocationLongitude,Location Longitude,Location Longitude,survey,
+,DistributionChannel,DistributionChannel,DistributionChannel,Distribution Channel,Distribution Channel,survey,
+,UserLanguage,UserLanguage,UserLanguage,User Language,User Language,survey,
+TRUE,Q4,chu_1,worried,How worried are you today?,How worried are you today?,CHU,TRUE
+TRUE,Q5,chu_2,sad,How sad are you today?,How sad are you today?,CHU,TRUE
+TRUE,Q8,chu_3,pain,How much pain do you have today?,How much pain do you have today?,CHU,TRUE
+TRUE,Q7,chu_4,tired,How tired are you today?,How tired are you today?,CHU,TRUE
+TRUE,Q6,chu_5,annoyed,How annoyed are you today?,How annoyed are you today?,CHU,TRUE
+,Q9,chu_6,slept,How did you sleep last night?,How did you sleep last night?,CHU,TRUE
+,Q9.0,chu_7,routine,How are you doing with your daily routine today?,How are you doing with your daily routine today?,CHU,TRUE
+,Q10,chu_8,work,How are you doing with your work today?,How are you doing with your work today?,CHU,TRUE
+,Q11,chu_9,activities,To what extent can you join in with activities today?,To what extent can you join in with activities today?,CHU,TRUE
+,Q12,wtd_1,optimistic,I've been feeling optimistic about the future.,I've been feeling optimistic about the future.,WTD,TRUE
+,Q13,wtd_2,useful,I've been feeling useful.,I've been feeling useful.,WTD,TRUE
+,Q14,wtd_3,relaxed,I've been feeling relaxed.,I've been feeling relaxed.,WTD,TRUE
+,Q15,wtd_4,people,I've been feeling interested in other people.,I've been feeling interested in other people.,WTD,TRUE
+,Q16,wtd_5,energetic,I've had energy to spare.,I've had energy to spare.,WTD,TRUE
+,Q17,wtd_6,dealproblems,I've been dealing with problems well.,I've been dealing with problems well.,WTD,TRUE
+,Q18,wtd_7,thinkclear,I've been thinking clearly.,I've been thinking clearly.,WTD,TRUE
+,Q19,wtd_8,goodmyself,I've been feeling good about myself.,I've been feeling good about myself.,WTD,TRUE
+,Q20,wtd_9,close,I've been feeling close to other people.,I've been feeling close to other people.,WTD,TRUE
+,Q21,wtd_10,confident,I've been feeling confident,I've been feeling confident,WTD,TRUE
+,Q22,wtd_11,makemind,I've been able to make up my own mind about things.,I've been able to make up my own mind about things.,WTD,TRUE
+,Q23,wtd_12,loved,I've been feeling loved.,I've been feeling loved.,WTD,TRUE
+,Q24,wtd_13,newthings,I've been interested in new things.,I've been interested in new things.,WTD,TRUE
+,Q25,wtd_14,cheerful,I've been feeling cheerful.,I've been feeling cheerful.,WTD,TRUE
+,Q41,w2w_1,optimistic,I've been feeling optimistic about the future.,I've been feeling optimistic about the future.,W2W,TRUE
+,Q42,w2w_2,useful,I've been feeling useful.,I've been feeling useful.,W2W,TRUE
+,Q43,w2w_3,relaxed,I've been feeling relaxed.,I've been feeling relaxed.,W2W,TRUE
+,Q44,w2w_4,people,I've been feeling interested in other people.,I've been feeling interested in other people.,W2W,TRUE
+,Q45,w2w_5,energetic,I've had energy to spare.,I've had energy to spare.,W2W,TRUE
+,Q46,w2w_6,dealproblems,I've been dealing with problems well.,I've been dealing with problems well.,W2W,TRUE
+,Q47,w2w_7,thinkclear,I've been thinking clearly.,I've been thinking clearly.,W2W,TRUE
+,Q48,w2w_8,goodmyself,I've been feeling good about myself.,I've been feeling good about myself.,W2W,TRUE
+,Q49,w2w_9,close,I've been feeling close to other people.,I've been feeling close to other people.,W2W,TRUE
+,Q50,w2w_10,confident,I've been feeling confident,I've been feeling confident,W2W,TRUE
+,Q51,w2w_11,makemind,I've been able to make up my own mind about things.,I've been able to make up my own mind about things.,W2W,TRUE
+,Q52,w2w_12,loved,I've been feeling loved.,I've been feeling loved.,W2W,TRUE
+,Q53,w2w_13,newthings,I've been interested in new things.,I've been interested in new things.,W2W,TRUE
+,Q54,w2w_14,cheerful,I've been feeling cheerful.,I've been feeling cheerful.,W2W,TRUE
+,Q26,sun_1,happy,Today I feel happy.,Today I feel happy.,SUN,TRUE
+,Q27_1,sun_why_1_1,classes,"Why did you choose this answer to the statement, ""Today I feel happy""? classes","Why did you choose this answer to the statement, ""Today I feel happy""? classes",SUN,
+,Q27_2,sun_why_1_2,work,"Why did you choose this answer to the statement, ""Today I feel happy""? work","Why did you choose this answer to the statement, ""Today I feel happy""? work",SUN,
+,Q27_3,sun_why_1_3,health,"Why did you choose this answer to the statement, ""Today I feel happy""? health","Why did you choose this answer to the statement, ""Today I feel happy""? health",SUN,
+,Q27_4,sun_why_1_4,family,"Why did you choose this answer to the statement, ""Today I feel happy""? family","Why did you choose this answer to the statement, ""Today I feel happy""? family",SUN,
+,Q27_5,sun_why_1_5,friends,"Why did you choose this answer to the statement, ""Today I feel happy""? friends","Why did you choose this answer to the statement, ""Today I feel happy""? friends",SUN,
+,Q27_6,sun_why_1_6,significant other,"Why did you choose this answer to the statement, ""Today I feel happy""? significant other","Why did you choose this answer to the statement, ""Today I feel happy""? significant other",SUN,
+,Q27_7,sun_why_1_7,sleep,"Why did you choose this answer to the statement, ""Today I feel happy""? sleep","Why did you choose this answer to the statement, ""Today I feel happy""? sleep",SUN,
+,Q27_8,sun_why_1_8,nutrition,"Why did you choose this answer to the statement, ""Today I feel happy""? nutrition","Why did you choose this answer to the statement, ""Today I feel happy""? nutrition",SUN,
+,Q27_9,sun_why_1_9,physical activity,"Why did you choose this answer to the statement, ""Today I feel happy""? physical activity","Why did you choose this answer to the statement, ""Today I feel happy""? physical activity",SUN,
+,Q27_10,sun_why_1_10,extracurricular activity,"Why did you choose this answer to the statement, ""Today I feel happy""? extracurricular activity","Why did you choose this answer to the statement, ""Today I feel happy""? extracurricular activity",SUN,
+,Q27_11,sun_why_1_11,current events,"Why did you choose this answer to the statement, ""Today I feel happy""? current events","Why did you choose this answer to the statement, ""Today I feel happy""? current events",SUN,
+,Q27_12,sun_why_1_12,housing environment,"Why did you choose this answer to the statement, ""Today I feel happy""? housing environment","Why did you choose this answer to the statement, ""Today I feel happy""? housing environment",SUN,
+,Q27_13,sun_why_1_13,other,"Why did you choose this answer to the statement, ""Today I feel happy""? other","Why did you choose this answer to the statement, ""Today I feel happy""? other",SUN,
+,Q29,sun_2,confident,Today I feel confident.,Today I feel confident.,SUN,TRUE
+,Q30,sun_3,purpose,Today I feel that my life has a purpose.,Today I feel that my life has a purpose.,SUN,TRUE
+,Q31,sun_4,supported,Today I feel supported.,Today I feel supported.,SUN,TRUE
+,Q32,sun_5,selfcare,Today I took good care of myself.,Today I took good care of myself.,SUN,TRUE
+,Q33,sun_6,rested,Today I feel rested.,Today I feel rested.,SUN,TRUE
+,Q34,sun_7,annoyed,Today I feel annoyed or irritable.,Today I feel annoyed or irritable.,SUN,TRUE
+,Q35_1,sun_why_7_1,classes,"Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? classes","Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? classes",SUN,
+,Q35_2,sun_why_7_2,work,"Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? work","Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? work",SUN,
+,Q35_3,sun_why_7_3,health,"Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? health","Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? health",SUN,
+,Q35_4,sun_why_7_4,family,"Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? family","Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? family",SUN,
+,Q35_5,sun_why_7_5,friends,"Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? friends","Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? friends",SUN,
+,Q35_6,sun_why_7_6,significant other,"Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? significant other","Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? significant other",SUN,
+,Q35_7,sun_why_7_7,sleep,"Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? sleep","Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? sleep",SUN,
+,Q35_8,sun_why_7_8,nutrition,"Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? nutrition","Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? nutrition",SUN,
+,Q35_9,sun_why_7_9,physical activity,"Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? physical activity","Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? physical activity",SUN,
+,Q35_10,sun_why_7_10,extracurricular activity,"Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? extracurricular activity","Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? extracurricular activity",SUN,
+,Q35_11,sun_why_7_11,current events,"Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? current events","Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? current events",SUN,
+,Q35_12,sun_why_7_12,housing environment,"Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? housing environment","Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? housing environment",SUN,
+,Q35_13,sun_why_7_13,other,"Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? other","Why did you choose this answer to the statement, ""Today I feel annoyed or irritable""? other",SUN,
+,Q60,age,Age,How old are you?,How old are you?,demo,
+,Q61,sex,Sex,What is your birth sex?,What is your birth sex? - Selected Choice,demo,
+,Q61_3_TEXT,sex_other,Sex,What is your birth sex?,What is your birth sex? - Other - Text,demo,
+,Q62,ethnicity,Ethnicity,How would you describe your ethnicity?,How would you describe your ethnicity?,demo,
+,Q63,race,Race,How would you describe your race?,How would you describe your race? - Selected Choice,demo,
+,Q63_6_TEXT,race_other,Race,How would you describe your race?,How would you describe your race? - Other - Text,demo,
+,Q64,class_standing,Class Standing,What is your class standing?,What is your class standing?,demo,

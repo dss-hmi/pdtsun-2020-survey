@@ -1,0 +1,95 @@
+name,label,label_raw
+ResponseId,Response ID,Response ID
+Q4_1,"Today I feel able to meet my responsibilities (e.g. work, school).","Please indicate how strongly you agree or disagree with the following statements. - Today I feel able to meet my responsibilities (e.g. work, school)."
+Q4_2,Today I feel optimistic about the future.,Please indicate how strongly you agree or disagree with the following statements. - Today I feel optimistic about the future.
+Q4_3,Today I feel loved.,Please indicate how strongly you agree or disagree with the following statements. - Today I feel loved.
+Q4_4,Today I feel annoyed/irritable.,Please indicate how strongly you agree or disagree with the following statements. - Today I feel annoyed/irritable.
+Q4_5,Today I feel rested.,Please indicate how strongly you agree or disagree with the following statements. - Today I feel rested.
+Q4_6,Today I feel happy.,Please indicate how strongly you agree or disagree with the following statements. - Today I feel happy.
+Q4_7,Today I feel in physical pain.,Please indicate how strongly you agree or disagree with the following statements. - Today I feel in physical pain.
+Q4_8,Today I feel confident.,Please indicate how strongly you agree or disagree with the following statements. - Today I feel confident.
+Q4_9,Today I feel worried/anxious.,Please indicate how strongly you agree or disagree with the following statements. - Today I feel worried/anxious.
+Q4_10,Today I feel that my life has a purpose.,Please indicate how strongly you agree or disagree with the following statements. - Today I feel that my life has a purpose.
+Q4_11,Today I feel sad.,Please indicate how strongly you agree or disagree with the following statements. - Today I feel sad.
+Q4_12,Today I feel useful.,Please indicate how strongly you agree or disagree with the following statements. - Today I feel useful.
+Q4_13,Today I feel energetic.,Please indicate how strongly you agree or disagree with the following statements. - Today I feel energetic.
+Q4_14,Today I feel supported.,Please indicate how strongly you agree or disagree with the following statements. - Today I feel supported.
+Q4_15,Today I feel angry.,Please indicate how strongly you agree or disagree with the following statements. - Today I feel angry.
+Q4_16,Today I feel in charge of my life.,Please indicate how strongly you agree or disagree with the following statements. - Today I feel in charge of my life.
+Q6_1,Today I woke up feeling well-rested.,Please indicate how strongly you agree or disagree with the following statements. - Today I woke up feeling well-rested.
+Q6_2,Today I ate well.,Please indicate how strongly you agree or disagree with the following statements. - Today I ate well.
+Q6_3,Today I took good care of myself.,Please indicate how strongly you agree or disagree with the following statements. - Today I took good care of myself.
+Q6_4,Today I was helpful to others.,Please indicate how strongly you agree or disagree with the following statements. - Today I was helpful to others.
+Q7_1,Today I ... Ate healthy foods,I did the following things for myself today (please choose all that apply): Ate healthy foods
+Q7_2,Today I ... Got enough sleep,I did the following things for myself today (please choose all that apply): Got enough sleep
+Q7_3,"Today I ... Engaged in a physical activity (e.g., walking, sports)","I did the following things for myself today (please choose all that apply): Engaged in a physical activity (e.g., walking, sports)"
+Q7_4,Today I ... Spent time with people I like,I did the following things for myself today (please choose all that apply): Spent time with people I like
+Q7_5,Today I ... Engaged in a hobby,I did the following things for myself today (please choose all that apply): Engaged in a hobby
+Q7_6,Today I ... Meditated or prayed,I did the following things for myself today (please choose all that apply): Meditated or prayed
+Q7_7,Today I ... Participating in a spiritual community,I did the following things for myself today (please choose all that apply): Participating in a spiritual community
+Q7_8,Today I ... Volunteered or contributed to a cause I believe in,I did the following things for myself today (please choose all that apply): Volunteered or contributed to a cause I believe in
+Q7_9,Today I ... Spent time in nature,I did the following things for myself today (please choose all that apply): Spent time in nature
+Q7_10,Today I ... Quiet time,I did the following things for myself today (please choose all that apply): Quiet time
+Q8,Comments to Q7,"Do you have any comments about the question above (""I did the following things for myself today""); was there anything unclear or confusing, or any choices missing that should be included?"
+Q9,"At some point in my life, I was concerned about my use of alcohol, tobacco, or drugs.","To what extent do you agree with the following statement: 
+At some point in my life, I was concerned about my use of alcohol, tobacco, or drugs."
+Q11,"With respect to using alcohol, tobacco, or drugs, I have met my goal today.","To what extent do you agree with the following statement: 
+With respect to using alcohol, tobacco, or drugs, I have met my goal today."
+Q12_1,Helped goal ... Medication,The following activities helped me to meet my goal (please choose all that apply): - Selected Choice Medication
+Q12_2,Helped goal ... Support group,The following activities helped me to meet my goal (please choose all that apply): - Selected Choice Support group
+Q12_3,Helped goal ... Counselling,The following activities helped me to meet my goal (please choose all that apply): - Selected Choice Counselling
+Q12_4,Helped goal ... Family,The following activities helped me to meet my goal (please choose all that apply): - Selected Choice Family
+Q12_5,Helped goal ... Friends,The following activities helped me to meet my goal (please choose all that apply): - Selected Choice Friends
+Q12_6,Helped goal ... Significant other,The following activities helped me to meet my goal (please choose all that apply): - Selected Choice Significant other
+Q12_7,Helped goal ... Religious/spiritual activity,The following activities helped me to meet my goal (please choose all that apply): - Selected Choice Religious/spiritual activity
+Q12_8,Helped goal ... Mindfulness/meditation,The following activities helped me to meet my goal (please choose all that apply): - Selected Choice Mindfulness/meditation
+Q12_9,Helped goal ... Avoiding negative patterns of thinking,The following activities helped me to meet my goal (please choose all that apply): - Selected Choice Avoiding negative patterns of thinking
+Q12_10,Helped goal ... Doing things for others,The following activities helped me to meet my goal (please choose all that apply): - Selected Choice Doing things for others
+Q12_11,Helped goal ... Setting healthy boundaries,The following activities helped me to meet my goal (please choose all that apply): - Selected Choice Setting healthy boundaries
+Q12_12,Helped goal ... Doing things I enjoy,The following activities helped me to meet my goal (please choose all that apply): - Selected Choice Doing things I enjoy
+Q12_13,Helped goal ... No access to substance,The following activities helped me to meet my goal (please choose all that apply): - Selected Choice No access to substance
+Q12_14,Helped goal ... Other:,The following activities helped me to meet my goal (please choose all that apply): - Selected Choice Other:
+Q12_14_TEXT,Helped goal ... Free text,The following activities helped me to meet my goal (please choose all that apply): - Other: - Text
+Q13_1,Hindered goal ... Family,The following activities contributed to not meeting my goal (please choose all that apply): - Selected Choice Family
+Q13_2,Hindered goal ... Friends,The following activities contributed to not meeting my goal (please choose all that apply): - Selected Choice Friends
+Q13_3,Hindered goal ... Significant other,The following activities contributed to not meeting my goal (please choose all that apply): - Selected Choice Significant other
+Q13_4,Hindered goal ... School,The following activities contributed to not meeting my goal (please choose all that apply): - Selected Choice School
+Q13_5,Hindered goal ... Work,The following activities contributed to not meeting my goal (please choose all that apply): - Selected Choice Work
+Q13_6,Hindered goal ... Stress,The following activities contributed to not meeting my goal (please choose all that apply): - Selected Choice Stress
+Q13_7,Hindered goal ... Depression,The following activities contributed to not meeting my goal (please choose all that apply): - Selected Choice Depression
+Q13_8,Hindered goal ... Boredom,The following activities contributed to not meeting my goal (please choose all that apply): - Selected Choice Boredom
+Q13_9,Hindered goal ... Tiredness,The following activities contributed to not meeting my goal (please choose all that apply): - Selected Choice Tiredness
+Q13_10,Hindered goal ... Social pressure,The following activities contributed to not meeting my goal (please choose all that apply): - Selected Choice Social pressure
+Q13_11,Hindered goal ... Availability of the substance,The following activities contributed to not meeting my goal (please choose all that apply): - Selected Choice Availability of the substance
+Q13_12,Hindered goal ... Unstable Housing,The following activities contributed to not meeting my goal (please choose all that apply): - Selected Choice Unstable Housing
+Q13_13,Hindered goal ... Other,The following activities contributed to not meeting my goal (please choose all that apply): - Selected Choice Other
+Q13_13_TEXT,Hindered goal ... Free text,The following activities contributed to not meeting my goal (please choose all that apply): - Other - Text
+Q14,Comments to Q12,"Do you have any comments about the prior question (""The following activities helped me to meet my goal""); is anything unclear or confusing, or are any answer choices missing that should be included?"
+Q15,Comments to Q13,"Do you have any comments about the prior question (""The following activities contributed to not meeting my goal""); is anything unclear or confusing, or are any answer choices missing that should be included?"
+Q16,"My urge/craving to use tobacco, alcohol, or drugs today has been:","My urge/craving to use tobacco, alcohol, or drugs today has been:"
+Q17,I've been feeling relaxed.,I've been feeling relaxed.
+Q18,I've been feeling cheerful.,I've been feeling cheerful.
+Q19,I've been thinking clearly.,I've been thinking clearly.
+Q20,How worried are you today?,How worried are you today?
+Q21,How sad are you today?,How sad are you today?
+Q22,How much pain are you in today?,How much pain are you in today?
+Q23,How did you sleep last night?,How did you sleep last night?
+Q24,How annoyed are you today?,How annoyed are you today?
+Q25,How tired are you today?,How tired are you today?
+Q26,I've had energy to spare...,I've had energy to spare...
+Q27,I've been dealing with problems well...,I've been dealing with problems well...
+Q28,How are you doing with your work today?,How are you doing with your work today?
+Q29,How are you doing with your daily routine today?,How are you doing with your daily routine today?
+Q30,Are you able to join in with activities today?,Are you able to join in with activities today?
+Q31,I've been feeling close to other people.,I've been feeling close to other people.
+Q33,I've been feeling loved.,I've been feeling loved.
+Q35,I've been interested in other people.,I've been interested in other people.
+Q36,I've been feeling useful.,I've been feeling useful.
+Q37,I've been feeling good about myself.,I've been feeling good about myself.
+Q38,I've been feeling confident.,I've been feeling confident.
+Q39,I've been feeling optimistic about the future.,I've been feeling optimistic about the future.
+Q40,"My urge/craving to use alcohol, tobacco, or drugs has been...","My urge/craving to use alcohol, tobacco, or drugs has been..."
+Q41,What is your gender?,What is your gender?
+Q42,What is your race?,What is your race?
+Q43,What is your ethnicity?,What is your ethnicity?
+Q44,What is your class standing?,What is your class standing?
