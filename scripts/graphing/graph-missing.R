@@ -1,8 +1,8 @@
 missing_summary <- function(x){
   ms <- x %>% naniar::miss_summary() %>% as.list()
-  cat("\nOverall % of missing data: ",sprintf("%.2f",ms$miss_df_pct),"%")
-  cat("\nVariables that contain missing data: ",sprintf("%.2f",ms$miss_var_pct),"%")
-  cat("\nCases that contain missing data: ",sprintf("%.2f",ms$miss_case_pct),"%")
+  cat("\nOverall % of missing data: ",scales::percent(ms$miss_df_prop))
+  cat("\nVariables that contain missing data: ",scales::percent(ms$miss_var_prop))
+  cat("\nCases that contain missing data: ",scales::percent(ms$miss_case_prop))
 }
 # d %>% missing_summary()
 
@@ -13,7 +13,7 @@ show_missing_points <- function(
   yvar
 ){
   g <- ggplot2::ggplot(data=d, aes_string(x=xvar,y=yvar))+
-    naniar::geom_missing_point()+
+    naniar::geom_miss_point()+
     theme_bw()
   g
 }
@@ -62,7 +62,7 @@ missing_counts_var <- function(
   if(sort){
     d <- x %>%
       naniar::miss_var_summary() %>%
-      dplyr::arrange(n_missing)
+      dplyr::arrange(n_miss)
   }else{
     d <- x %>%
       naniar::miss_var_summary() %>%
@@ -74,13 +74,13 @@ missing_counts_var <- function(
 
   g <- d %>%
     dplyr::mutate(
-      percent_pretty = paste0(sprintf("%.1f",percent),"%")
+      percent_pretty = paste0(sprintf("%.1f",pct_miss),"%")
     ) %>%
     dplyr::mutate(
-      percent_pretty = paste0(sprintf("%.1f",percent),"%")
+      percent_pretty = paste0(sprintf("%.1f",pct_miss),"%")
     ) %>%
     # ggplot2::ggplot(aes(x=reorder(variable,percent),y=n_missing))+
-    ggplot2::ggplot(aes(y=reorder(variable,percent),x=n_missing))+
+    ggplot2::ggplot(aes(y=reorder(variable,pct_miss),x=n_miss))+
     geom_point(shape=124, size=5)+
     theme_bw()+
     # geom_segment(aes(xend=n_missing), yend=0, colour="grey50")+
