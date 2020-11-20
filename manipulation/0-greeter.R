@@ -14,6 +14,14 @@ requireNamespace("dplyr")
 # ---- declare-globals ---------------------------------------------------------
 path_input <- "data-unshared/raw/Validation+of+SUN+Mental+Health+App+Instrument_November+20,+2020_04.37.sav"
 
+ggplot2::theme_set(
+  ggplot2::theme_bw(
+  )+
+    theme(
+      strip.background = element_rect(fill="grey90", color = NA)
+    )
+)
+
 # ---- load-data ---------------------------------------------------------------
 # ds0 <- haven::read_sav(path_input, )
 ds0 <- haven::read_sav(path_input)
@@ -50,37 +58,44 @@ items_sun_why <- metadata %>% filter(section == "SUN", is.na(likert)) %>% pull(i
 items_scales <- c(items_chu, items_wtd, items_w2w, items_sun)
 
 ds1 %>% group_by(Status, Finished) %>% count()
+
 ds2 <- ds1 %>%
   filter(Finished==1) %>%
   mutate_all(dplyr::na_if,-99)
+ds2 %>% glimpse()
 
-dscale <- ds2 %>%
-  select(c("ResponseId", items_scales))
 
+# ----- explore-missingness ---------------
 
 ds2 %>% select(items_chu) %>%   missing_summary()
 ds2 %>% select(items_wtd) %>%   missing_summary()
 ds2 %>% select(items_w2w) %>%   missing_summary()
 ds2 %>% select(items_sun) %>%   missing_summary()
 
-ds2 %>% select(c(items_chu, items_sun)) %>% missing_summary()
+ds2 %>% select(items_chu) %>%   missing_summary()
+ds2 %>% select(items_wtd) %>%   missing_summary()
+ds2 %>% select(items_w2w) %>%   missing_summary()
+ds2 %>% select(items_sun) %>%   missing_summary()
 
 
-ds2 %>% select(c(items_chu, items_sun)) %>% filter(complete.cases(.))
-
-ds2 %>% select(items_wtd)  %>% missing_summary()
-ds2 %>% select(items_wtd)  %>% show_missing_points()
 
 
-cat("\nOverall % of missing data: ",scales::percent(ms$miss_df_prop))
-cat("\nVariables that contain missing data: ",scales::percent(ms$miss_var_prop))
-cat("\nCases that contain missing data: ",scales::percent(ms$miss_case_prop))
 
+ds2 %>% select(items_chu) %>% na.omit() %>% nrow()
+ds2 %>% select(items_wtd) %>% na.omit() %>%  nrow()
+ds2 %>% select(items_w2w) %>% na.omit() %>%  nrow()
+ds2 %>% select(items_sun) %>% na.omit() %>%  nrow()
 
-missing_summary()
+ds2 %>% select(items_chu, items_sun) %>% na.omit() %>% nrow()
+ds2 %>% select(items_wtd, items_sun) %>% na.omit() %>%  nrow()
+ds2 %>% select(items_w2w, items_sun) %>% na.omit() %>%  nrow()
 
+ds2 %>% select(items_chu, items_wtd) %>% na.omit() %>% nrow()
+ds2 %>% select(items_chu, items_w2w) %>% na.omit() %>% nrow()
 
-naniar::miss_summary(ds2 %>% select(items_wtd))
+ds2 %>% select(items_chu, items_wtd, items_sun) %>% na.omit() %>% nrow()
+ds2 %>% select(items_chu, items_w2w, items_sun) %>% na.omit() %>% nrow()
+
 
 # ---- convert-to-factors -----------------------
 
@@ -101,12 +116,42 @@ convert_to_factors <- function(d,varname){
 }
 
 
-ds2 <- ds1
+ds3 <- ds2
 for(i in c("Status","Finished", items_scales, items_sun_why,"sex", "ethnicity","race","class_standing")){
-  ds2 <- ds2 %>% convert_to_factors(i)
+  ds3 <- ds3 %>% convert_to_factors(i)
 }
 
-ds2 %>% glimpse()
+ds3 %>% glimpse()
+
+ds3 %>% group_by(sex) %>% count()
+ds3 %>% group_by(race) %>% count()
+ds3 %>% group_by(class_standing) %>% count()
+
+# ----- ------
+
+n_responses <- ds3 %>% n_distinct("ResponseId")
+
+ds3 %>%
+  mutate(
+    date = lubridate::date(RecordedDate)
+  ) %>%
+  ggplot(aes(x = date) )+
+  geom_bar()+
+  labs(
+    title = paste0("Date of response collection (N ="
+                   ,ds1 %>% n_distinct("ResponseId")
+                   , ")"
+    )
+    ,x = "202"
+    ,y = "Number of responses"
+  ) +
+  labs(
+    title = paste0("Date of taking the survey (N = ",n_responses,")")
+  )
+
+
+
+
 
 
 # ---- tweak-data-2 ---------------
